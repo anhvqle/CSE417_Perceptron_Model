@@ -14,6 +14,7 @@ def perceptron_learn(data_in):
     #        iterations: The number of iterations the algorithm ran for
 
     # Your code here, assign the proper values to w and iterations:
+    
     N = data_in.shape[0]
     d = data_in.shape[1] - 2
     x = data_in[:, :d+1]
